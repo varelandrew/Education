@@ -15,7 +15,10 @@
   5. Once the school_info data set was changed I ended up renaming all of the columns in both edgap and school_info to be lowercase, snake_case, readable, and ready to be merged.
   6. I merged the two data frames into a new one that contained all of the values from edgap and school_info on edgaps id column.
   7. I proceeded to tidy up the data set by fixing values that were incorrect like negative percentages or less than 1 for an average act score, as well as removing other school levels as high school felt like the whole relevant level for me to answer the question.
-  8. I then exported the data into a csv file.
+  8. Next step was to perform a train test split on the data set to predict average_act scores. I did this by splitting the data into training and testing sets, where I am keeping 20% of the data for the test set.
+  9. I then imputed the data to replace missing values in the columns corresponding to predictor variables in the anaylsis by using all numeric values other than average_act score.
+  10. Lastly, I joined the x_train and y_train data sets together to make the clean data set easy to plot and visualize.
+  11. Then I exported the clean data set.
   
  Here you can find the python file that follows these steps I listed: [Data Preparation File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Inequality_Data_Preparation_Template.ipynb)
  
