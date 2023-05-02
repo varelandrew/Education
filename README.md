@@ -23,3 +23,8 @@
  Here you can find the python file that follows these steps I listed: [Data Preparation File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Inequality_Data_Preparation_Template.ipynb)
  
  Here you can find the cleaned csv file: [Clean Data](https://github.com/varelandrew/Education/blob/main/clean_education.csv)
+ 
+ # Data Analization
+ - What steps
+  1.
+  2.
