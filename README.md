@@ -25,6 +25,15 @@
  Here you can find the cleaned csv file: [Clean Data](https://github.com/varelandrew/Education/blob/main/clean_education.csv)
  
  # Data Analization
- - What steps
-  1.
-  2.
+ - What steps did I take to analyze the clean data set from my [Data Preparation File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Inequality_Data_Preparation_Template.ipynb)
+  1. I first imported the necessary libraries that I will need to successfull analyze the data.
+  2. I then loaded the clean data set, reviewed it, and stated questions that I wanted to answer by the of the analysis.
+  3. Performing the analysis took multiple steps. I used a correlation matrix and a pair plot as well as some regression models to start differentiating the predictors.
+  4. I picked up on a significant predictor but I wanted to figure out the best subset of predictors with code.
+  5. I performed a best subset model with the use of the BIC value to find the three best predictors.
+  6. Once I found the best predictors I compared them to the original model as well as a z-score model to better visualize the difference between each model.
+  7. Then I started working on my Additional Proposal which was how States effect socioeconomic variables or a school's average ACT performance.
+  8. After looking at some models I discovered that states are good predictors for the average ACT score but aren't the best at predicting socioeconomic variables.
+  9. I finished by giving a final conclusion that summarized my findings.
+  
+ Here you can find the python file that follows these steps I listed: [Data Analysis File]()
