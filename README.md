@@ -36,4 +36,4 @@
   8. After looking at some models I discovered that states are good predictors for the average ACT score but aren't the best at predicting socioeconomic variables.
   9. I finished by giving a final conclusion that summarized my findings.
   
- Here you can find the python file that follows these steps I listed: [Data Analysis File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Analysis.ipynb)
+  Here you can find the python file that follows these steps I listed: [Data Analysis File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Analysis.ipynb)
