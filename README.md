@@ -1,7 +1,11 @@
 # Is School Performance Predicted By Socioeconomic Factors?
 
-# What Is The Purpose Of The Project?
-- This project addresses inequality of educational opportunity in U.S. high schools. We want to utilize the data to see if school performance can be predicted by socioeconomic factors. Using the data provided below we can compare ACT and SAT scores for schools with socioeconomic characteristics to basic information about each school to dictate whether socioeconomic factors affect school performance.  
+# Description
+- The purpose of the project is to answer the question of whether school performance can be predicted by socioeconomic factors, and answer my additional proposal of whether State's can predict school performance or socioeconomic factors.I will be using python to perform operations that help me towards answering the above question. This includes cleaning up the provided data, and creating regression models to analyze how well variables can predict the average ACT score.
+- General conclusions that I discovered from performing the above methods consist of creating multiple linear regression models and discovering the best subset of predictors which are rate of unemployment, percent of students that are going to attend college, and percent of students that require free/reduced lunch. Where percent of students that require free/reduced lunch is found to be the best predictor for finding a school's average ACT performance. Adding a categorical predictor like State's also showed being a good predictor for a school's average ACT performance, but not a good predictor for socioeconomic factors. A more in depth conclusion can be viewed at [Communication Presentation](https://github.com/varelandrew/Education/blob/main/CommunicateTheResultsEducation.pptx) and [Analysis Notebook](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Analysis.ipynb).
+
+# Requirements
+- In order to complete this project I had the help from a few tools. I used Google Colab as a notebook for my code to perform my desired actions when it came to answering the question of this project. Python was my programming language of choice as it has many libraries that make plotting and cleaning up data easy. Finally, I used GitHub as my project storage as it makes it easy to link and store files that I used and created for this project.
 
 # Data
 - This project utilizes two data sets [Edgap Data Set](https://github.com/varelandrew/Education/blob/main/EdGap_data.xlsx) and [NCES Data Set](https://www.dropbox.com/s/lkl5nvcdmwyoban/ccd_sch_029_1617_w_1a_11212017.csv?dl=0). The primary data set is the EdGap data set from [Edgap](https://www.edgap.org/#5/37.875/-96.987). This data set from 2016 includes information about average ACT or SAT scores for schools and several socioeconomic characteristics of the school district. The secondary data set is basic information about each school from [NCES](https://nces.ed.gov/ccd/pubschuniv.asp).
@@ -23,17 +27,9 @@
  Here you can find the python file that follows these steps I listed: [Data Preparation File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Inequality_Data_Preparation_Template.ipynb)
  
  Here you can find the cleaned csv file: [Clean Data](https://github.com/varelandrew/Education/blob/main/clean_education.csv)
- 
- # Data Analization
- - What steps did I take to analyze the clean data set from my [Data Preparation File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Inequality_Data_Preparation_Template.ipynb)
-  1. I first imported the necessary libraries that I will need to successfull analyze the data.
-  2. I then loaded the clean data set, reviewed it, and stated questions that I wanted to answer by the of the analysis.
-  3. Performing the analysis took multiple steps. I used a correlation matrix and a pair plot as well as some regression models to start differentiating the predictors.
-  4. I picked up on a significant predictor but I wanted to figure out the best subset of predictors with code.
-  5. I performed a best subset model with the use of the BIC value to find the three best predictors.
-  6. Once I found the best predictors I compared them to the original model as well as a z-score model to better visualize the difference between each model.
-  7. Then I started working on my Additional Proposal which was how States effect socioeconomic variables or a school's average ACT performance.
-  8. After looking at some models I discovered that states are good predictors for the average ACT score but aren't the best at predicting socioeconomic variables.
-  9. I finished by giving a final conclusion that summarized my findings.
-  
-  Here you can find the python file that follows these steps I listed: [Data Analysis File](https://github.com/varelandrew/Education/blob/main/Andrew_Varela_DATA_3320_Education_Analysis.ipynb)
+
+# Authors
+- The author of this project is Andrew Varela, a 4th year Computer Science major with a minor in Data Science currently attending Seattle University. You can find Andrew Varela on [Linkedin](https://www.linkedin.com/in/andrew-varela-a827a71b6/)
+
+# License
+- The owner of this project grants permission to use information from this repository.
